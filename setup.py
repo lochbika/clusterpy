@@ -1,9 +1,7 @@
 from numpy.distutils.core import setup, Extension
 
 ext1 = Extension(name='fcluster',
-                 sources=['clusterpy/fortran_cluster.f90'],
-                 language='fortran'
-                )
+                 sources=['clusterpy/fortran_cluster.f90'])
 
 setup(
     name='clusterpy',
