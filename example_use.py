@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from clusterpy import cluster
 
-infile = '/home/kai/PycharmProjects/clusterpy/cape.surfprec.100_coarse.nc'
+infile = 'test_data.nc'
 thres = 0.6/3600
  
 ds_disk = xr.open_dataset(infile, decode_times=False)
